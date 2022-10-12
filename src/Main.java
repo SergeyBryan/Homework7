@@ -37,7 +37,6 @@ public class Main {
         }
         //Задание 4
         System.out.println("Задание 4");
-        double bankTotal = 0;
         double total1 = 15000;
         double perCent = 0.07;
         i = 0;
@@ -47,7 +46,6 @@ public class Main {
             System.out.println("Месяц " + i + " сумма накоплений равна "+total1);
         }
         System.out.println("Задание 5");
-        double bankTotal2 = 0;
         double total2 = 15000;
         double perCent2 = 0.07;
         int i1 = 0;
@@ -99,7 +97,9 @@ public class Main {
         int two = 2;
         int number = 1;
         for (int i10 = 2; i10 <= 20; i10 = i10 + 2) {
-            System.out.println(two + "*"+number++ +"=" +i10);
+            System.out.println(two + "*" +number++ +"=" +i10);
         }
+        System.out.println("Тест для пул реквеста");
+        int test = 2;
         }
     }
